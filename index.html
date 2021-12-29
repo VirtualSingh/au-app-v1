@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./dist/img/icons8-u-64.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <title>AdaptiveU</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="index.html" class="logo"
+          ><img src="./dist/img/adaptiveU.png" alt="adaptiveU logo" height="28"
+        /></a>
+        <div class="explore">
+          <div class="explore__profile">
+            <div class="select">
+              <div type="button" class="select__btn" data-type="Sathya">
+                Sathya
+              </div>
+              <ul class="select__dropdown">
+                <li class="option" data-type="Sathya">Sathya</li>
+                <li class="option" data-type="Work">Work</li>
+                <li class="option" data-type="Logout">Logout</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-navigation">
+        <div class="container">
+          <!-- <div class="select">
+            <div type="button" class="select__btn" data-type="Sathya">
+              Sathya
+            </div>
+            <ul class="select__dropdown">
+              <li class="option" data-type="Sathya">Sathya</li>
+              <li class="option" data-type="Work">Work</li>
+              <li class="option" data-type="Logout">Logout</li>
+            </ul>
+          </div> -->
+          <nav class="nav__tabs">
+            <div class="dropdown">
+              <div class="dropdown__btn">FULL</div>
+            </div>
+            <ul class="nav__tabs-list">
+              <li class="active"><a href="#!">Challanges</a></li>
+              <li><a href="#!">peers</a></li>
+              <li><a href="#!">store</a></li>
+              <li><a href="#!">admin</a></li>
+            </ul>
+          </nav>
+          <div class="points">
+            <img
+              src="./dist/img/coin.svg "
+              alt="coin"
+              height="18"
+              width="18"
+            /><span>3157</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-content">
+        <aside class="sidebar">
+          <div class="search">
+            <div class="search__bar">
+              <img
+                src="./dist/img/search-solid.svg"
+                alt="search-icon"
+                class="search__bar-img"
+                height="18"
+                width="18"
+              />
+              <input
+                type="text "
+                placeholder="Search"
+                class="search__bar-input"
+              />
+            </div>
+          </div>
+          <div class="sidebar__tabs">
+            <ul class="sidebar__tabs-list">
+              <li class="active"><a href="#!">All</a></li>
+              <li><a href="#!">Authors</a></li>
+              <li><a href="#!">Aviation</a></li>
+              <li><a href="#!">Biography</a></li>
+              <li><a href="#!">Books</a></li>
+              <li><a href="#!">Business</a></li>
+              <li><a href="#!">Code</a></li>
+              <li><a href="#!">Communication</a></li>
+            </ul>
+          </div>
+        </aside>
+
+        <!-- ----- -->
+        <article class="content-wrapper">
+          <div class="content">
+            <div class="content__head clearfix">
+              <div class="content__head-img float-left">
+                <img
+                  src="./dist/img/paper-making-graphic.jpg"
+                  alt="paper making process"
+                />
+              </div>
+              <div class="content__head-desc float-left">
+                <h1>The paper Making Process</h1>
+                <p>Added by <span>subhashree</span></p>
+                <small>on 28 Feb 2017 08:53 AM</small>
+              </div>
+            </div>
+            <div class="content__body">
+              <section class="section-chart">
+                <div class="grid-row clearfix">
+                  <article class="float-left">
+                    <span>105 Peers</span>
+                    <p>Total peers who took this challenge</p>
+                  </article>
+                  <article class="float-left">
+                    <span>735 Minutes</span>
+                    <p>Total minutes spend by peers</p>
+                  </article>
+                  <article class="float-left">
+                    <span>840 Points</span>
+                    <p>Total points earned by peers</p>
+                  </article>
+                </div>
+              </section>
+              <!-- <section class="section-records">
+                <header>
+                  <h2>Table view</h2>
+                </header>
+              </section> -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </main>
+    <script src="./dist/js/main.js"></script>
+  </body>
+</html>

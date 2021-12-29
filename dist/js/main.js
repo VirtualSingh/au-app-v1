@@ -1,0 +1,2 @@
+const selectBtn=document.querySelector(".select__btn"),options=document.querySelectorAll(".option");selectBtn.addEventListener("click",(t=>{t.target.nextElementSibling.classList.toggle("toggle")})),options.forEach((t=>{t.addEventListener("click",(e=>{const n=e.target.parentElement;n.classList.remove("toggle");const l=t.getAttribute("data-type"),o=n.previousElementSibling;o.setAttribute("data-type",`${l}`),o.innerText=l}))}));
+//# sourceMappingURL=main.js.map
